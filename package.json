@@ -1,0 +1,15 @@
+{
+  "name": "@breadlee/config-biome",
+  "version": "0.0.1",
+  "type": "module",
+  "files": ["biome.json", "README.md"],
+  "scripts": {
+    "check": "biome check --write"
+  },
+  "publishConfig": {
+    "registry": "https://nexus.mgt.comm.jobkorea.co.kr/repository/npm-store/"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4"
+  }
+}
